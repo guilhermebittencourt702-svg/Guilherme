@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+ <html lang="pt-BR">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Meu Site | Aprendendo HTML</title>
+     <link rel="stylesheet" href="estilo.css">
+     <link rel="icon" href="favicon.ico">
+ </head>
+ <body>
+     <!-- 🔹 BARRA DE NAVEGAÇÃO FIXA -->
+     <nav class="navbar">
+         <div class="logo">
+             <span class="logo-texto">&lt;MeuSite/&gt;</span>
+         </div>
+         <ul class="nav-links">
+             <li><a href="#inicio">Início</a></li>
+             <li><a href="#sobre">Sobre</a></li>
+             <li><a href="#habilidades">Habilidades</a></li>
+             <li><a href="#projetos">Projetos</a></li>
+             <li><a href="#contato">Contato</a></li>
+         </ul>
+     </nav>
+     <!-- 🔹 CABEÇALHO / APRESENTAÇÃO -->
+     <header id="inicio" class="hero">
+         <div class="hero-conteudo">
+             <h1>Olá, eu sou <span class="destaque">[SEU NOME]</span></h1>
+             <p class="subtitulo">Estudante de Análise e Desenvolvimento de Sistemas</p>
+             <p class="descricao">Aprendendo a criar sites e construir coisas incríveis na web! 💻✨</p>
+             <div class="botoes">
+                 <a href="#projetos" class="btn btn-principal">Ver Meus Trabalhos</a>
+                 <a href="#contato" class="btn btn-secundario">Falar Comigo</a>
+             </div>
+         </div>
+         <div class="hero-imagem">
+             <img src="https://cdn-icons-png.flaticon.com/512/1005/1005141.png" alt="Ilustração de programação">
+         </div>
+     </header>
+     <!-- 🔹 SEÇÃO SOBRE MIM -->
+     <section id="sobre" class="secao sobre">
+         <h2 class="titulo-secao">📌 Sobre Mim</h2>
+         <div class="sobre-conteudo">
+             <div class="sobre-texto">
+                 <p>Oi! 👋 Sou estudante de ADS e estou dando meus primeiros passos no mundo da programação. Este site é meu projeto prático para treinar HTML e CSS.</p>
+                 <p>Adoro aprender coisas novas e estou muito animado para ver onde essa jornada vai me levar! 🚀</p>
+                 <p><strong>O que estou estudando agora:</strong> HTML, CSS, Lógica de Programação e um pouquinho de JavaScript.</p>
+             </div>
+             <div class="sobre-info">
+                 <div class="info-item">
+                     <strong>Nome:</strong> [Seu Nome]
+                 </div>
+                 <div class="info-item">
+                     <strong>Idade:</strong> [Sua Idade]
+                 </div>
+                 <div class="info-item">
+                     <strong>Cidade:</strong> Suzano - SP
+                 </div>
+                 <div class="info-item">
+                     <strong>Curso:</strong> Análise e Desenvolvimento de Sistemas
+                 </div>
+             </div>
+         </div>
+     </section>
+     <!-- 🔹 SEÇÃO HABILIDADES -->
+     <section id="habilidades" class="secao habilidades">
+         <h2 class="titulo-secao">🛠️ Minhas Habilidades</h2>
+         <p class="subtitulo-secao">O que estou aprendendo no momento</p>
+         
+         <div class="habilidades-grid">
+             <div class="habilidade-card">
+                 <h3>🌐 HTML</h3>
+                 <p>Construção da estrutura das páginas</p>
+                 <div class="barra-progresso">
+                     <div class="progresso html">60%</div>
+                 </div>
+             </div>
+             <div class="habilidade-card">
+                 <h3>🎨 CSS</h3>
+                 <p>Estilização e design dos sites</p>
+                 <div class="barra-progresso">
+                     <div class="progresso css">40%</div>
+                 </div>
+             </div>
+             <div class="habilidade-card">
+                 <h3>📐 Lógica</h3>
+                 <p>Pensamento computacional</p>
+                 <div class="barra-progresso">
+                     <div class="progresso logica">50%</div>
+                 </div>
+             </div>
+             <div class="habilidade-card">
+                 <h3>⚡ JavaScript</h3>
+                 <p>Interatividade nas páginas</p>
+                 <div class="barra-progresso">
+                     <div class="progresso js">10%</div>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <!-- 🔹 SEÇÃO PROJETOS -->
+     <section id="projetos" class="secao projetos">
+         <h2 class="titulo-secao">📂 Meus Projetos</h2>
+         <p class="subtitulo-secao">O que já criei até agora</p>
+         
+         <div class="projetos-grid">
+             <div class="projeto-card">
+                 <h3>🌐 Este Site!</h3>
+                 <p>Meu primeiro site completo com HTML e CSS — feito para praticar!</p>
+                 <span class="tag">HTML + CSS</span>
+             </div>
+             <div class="projeto-card">
+                 <h3>🏋️ Sistema de Academia</h3>
+                 <p>Estudo de caso — diagramação e lógica de um sistema de gestão.</p>
+                 <span class="tag">Lógica</span>
+             </div>
+             <div class="projeto-card">
+                 <h3>📝 Calculadora Simples</h3>
+                 <p>Em breve — farei uma calculadora com JavaScript!</p>
+                 <span class="tag">Em breve</span>
+             </div>
+             <div class="projeto-card">
+                 <h3>🎮 Jogo da Velha</h3>
+                 <p>Em breve — um joguinho pra treinar lógica!</p>
+                 <span class="tag">Em breve</span>
+             </div>
+         </div>
+     </section>
+     <!-- 🔹 SEÇÃO CONTATO -->
+     <section id="contato" class="secao contato">
+         <h2 class="titulo-secao">📬 Contato</h2>
+         <p class="subtitulo-secao">Fale comigo!</p>
+         
+         <div class="contato-form">
+             <form>
+                 <label for="nome">Seu Nome:</label>
+                 <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+                 <label for="email">Seu Email:</label>
+                 <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com">
+                 <label for="mensagem">Sua Mensagem:</label>
+                 <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem aqui..."></textarea>
+                 <button type="submit" class="btn-enviar">Enviar Mensagem ✉️</button>
+             </form>
+         </div>
+         <div class="contato-info">
+             <p>📧 Email: seuemail@email.com</p>
+             <p>💼 LinkedIn: linkedin.com/in/seunome</p>
+             <p>📍 Suzano - SP, Brasil</p>
+         </div>
+     </section>
+     <!-- 🔹 RODAPÉ -->
+     <footer class="rodape">
+         <p>&copy; 2026 [SEU NOME]. Todos os direitos reservados.</p>
+         <p>Feito com 💻, ☕ e muito estudo!</p>
+     </footer>
+ </body>
+ </html
